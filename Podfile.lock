@@ -1,0 +1,18 @@
+PODS:
+  - JASwipeCell (1.0.1)
+  - LHSKeyboardAdjusting (2.0.1)
+  - pop (1.0.9)
+
+DEPENDENCIES:
+  - JASwipeCell
+  - LHSKeyboardAdjusting
+  - pop
+
+SPEC CHECKSUMS:
+  JASwipeCell: fa161a9ef3d9fdd94f1d2f8b4d2e8118884cc6b0
+  LHSKeyboardAdjusting: 8f9b8d6e80315e653bf3188ae62963874d342d68
+  pop: f667631a5108a2e60d9e8797c9b32ddaf2080bce
+
+PODFILE CHECKSUM: e6c99a3158f2e328ab4f65f7f91c8770098df03f
+
+COCOAPODS: 1.2.1

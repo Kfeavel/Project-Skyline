@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Launch-Cloud" translatesAutoresizingMaskIntoConstraints="NO" id="xBO-us-7TF">
+                                <rect key="frame" x="84" y="244" width="206" height="179"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Aethyr" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="0fe-Wc-7qa">
+                                <rect key="frame" x="84" y="85" width="206" height="78"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="78" id="VnY-BS-4GI"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="ultraLight" pointSize="64"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0fe-Wc-7qa" firstAttribute="leading" secondItem="xBO-us-7TF" secondAttribute="leading" id="JXG-0R-UFj"/>
+                            <constraint firstItem="xBO-us-7TF" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="LfL-16-Xtf"/>
+                            <constraint firstItem="0fe-Wc-7qa" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eZb-IX-aYa"/>
+                            <constraint firstItem="0fe-Wc-7qa" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="65" id="fOY-PB-49o"/>
+                            <constraint firstItem="0fe-Wc-7qa" firstAttribute="trailing" secondItem="xBO-us-7TF" secondAttribute="trailing" id="r97-4X-j4m"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="Launch-Cloud" width="206" height="179"/>
+    </resources>
+</document>

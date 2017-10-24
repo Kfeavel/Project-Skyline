@@ -1,0 +1,1088 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D93220AA6257324E0F3351C3 /* libPods-AethyrTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BD156F3E902534732FD374C2 /* libPods-AethyrTests.a */; };
+		E17C6317F13A197AC34DA855 /* libPods-AethyrUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A3F68477E3B6DAD2A2032C /* libPods-AethyrUITests.a */; };
+		E9187FCE1F0074BD00FFF9CE /* MessageSettingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9187FCD1F0074BD00FFF9CE /* MessageSettingsController.m */; };
+		E9187FD31F00792100FFF9CE /* GMYConfettiView.m in Sources */ = {isa = PBXBuildFile; fileRef = E9187FD11F00792100FFF9CE /* GMYConfettiView.m */; };
+		E9187FD41F00792100FFF9CE /* Resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E9187FD21F00792100FFF9CE /* Resources.bundle */; };
+		E93044FC1F09FD41001A1729 /* RMPhotoDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = E93044FB1F09FD41001A1729 /* RMPhotoDrawer.m */; };
+		E93044FF1F09FF90001A1729 /* RMPhotoDrawerCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E93044FE1F09FF90001A1729 /* RMPhotoDrawerCell.m */; };
+		E9566EAA1ECA859A00308561 /* JotableTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9566EA91ECA859A00308561 /* JotableTests.m */; };
+		E9566EB51ECA859A00308561 /* JotableUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9566EB41ECA859A00308561 /* JotableUITests.m */; };
+		E95945A91EEDFCDE0006D809 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E959457C1EEDFCDE0006D809 /* AppDelegate.m */; };
+		E95945AA1EEDFCDE0006D809 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E959457D1EEDFCDE0006D809 /* Assets.xcassets */; };
+		E95945AB1EEDFCDE0006D809 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E959457E1EEDFCDE0006D809 /* LaunchScreen.storyboard */; };
+		E95945AC1EEDFCDE0006D809 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E95945801EEDFCDE0006D809 /* Main.storyboard */; };
+		E95945B71EEDFCDE0006D809 /* RMErrorPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E95945971EEDFCDE0006D809 /* RMErrorPresentationController.m */; };
+		E95945B91EEDFCDE0006D809 /* MessageDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = E959459B1EEDFCDE0006D809 /* MessageDetailController.m */; };
+		E95945BA1EEDFCDE0006D809 /* MessagesTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = E959459D1EEDFCDE0006D809 /* MessagesTableController.m */; };
+		E95945BB1EEDFCDE0006D809 /* MessageTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E959459F1EEDFCDE0006D809 /* MessageTableCell.m */; };
+		E95945BC1EEDFCDE0006D809 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E95945A21EEDFCDE0006D809 /* main.m */; };
+		E95945C31EEDFD070006D809 /* JotableModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E95945C11EEDFD070006D809 /* JotableModel.xcdatamodeld */; };
+		E991EFC71F086BB200B1ED4E /* RMAlert.m in Sources */ = {isa = PBXBuildFile; fileRef = E991EFC61F086BB200B1ED4E /* RMAlert.m */; };
+		E991EFCB1F0877BD00B1ED4E /* RMKeyboardManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E991EFCA1F0877BD00B1ED4E /* RMKeyboardManager.m */; };
+		E991EFCF1F087AFC00B1ED4E /* RMNotificationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E991EFCE1F087AFC00B1ED4E /* RMNotificationManager.m */; };
+		E991EFD11F08819B00B1ED4E /* vineshroom.caf in Resources */ = {isa = PBXBuildFile; fileRef = E991EFD01F08819B00B1ED4E /* vineshroom.caf */; };
+		E99E0A941F01ED97009EBFC1 /* MessageNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99E0A931F01ED97009EBFC1 /* MessageNavigationController.m */; };
+		E99E0A981F01F1B5009EBFC1 /* RMColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E99E0A971F01F1B5009EBFC1 /* RMColor.m */; };
+		E99E0AC41F032FA9009EBFC1 /* MessageNotificationsController.m in Sources */ = {isa = PBXBuildFile; fileRef = E99E0AC31F032FA9009EBFC1 /* MessageNotificationsController.m */; };
+		E99E0AC71F033364009EBFC1 /* MessageNotificationCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E99E0AC61F033364009EBFC1 /* MessageNotificationCell.m */; };
+		E9AAE48F1ECD497500BDEBA5 /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AAE48D1ECD497500BDEBA5 /* Contacts.framework */; };
+		E9AAE4901ECD497500BDEBA5 /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AAE48E1ECD497500BDEBA5 /* ContactsUI.framework */; };
+		E9AAE4A01ECE5DF600BDEBA5 /* Messages.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AAE49E1ECE5DF600BDEBA5 /* Messages.framework */; };
+		E9AAE4A11ECE5DF600BDEBA5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AAE49F1ECE5DF600BDEBA5 /* MessageUI.framework */; };
+		E9AAE4A71ECF437800BDEBA5 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AAE4A61ECF437800BDEBA5 /* QuartzCore.framework */; };
+		E9E805BB1F0C2C51006BE6AF /* MessageDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E805BA1F0C2C51006BE6AF /* MessageDetailCell.m */; };
+		E9E805BF1F0C2D74006BE6AF /* RMMessageComposer.m in Sources */ = {isa = PBXBuildFile; fileRef = E9E805BE1F0C2D74006BE6AF /* RMMessageComposer.m */; };
+		E9EE28791EEF684900D50873 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EE28771EEF684900D50873 /* UserNotifications.framework */; };
+		E9EE287A1EEF684900D50873 /* UserNotificationsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9EE28781EEF684900D50873 /* UserNotificationsUI.framework */; };
+		FCF3B7560B8FB741E4B0DE55 /* libPods-Aethyr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 55C4563350BD45512755A3DB /* libPods-Aethyr.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9566EA61ECA859A00308561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9566E7E1ECA859900308561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9566E851ECA859900308561;
+			remoteInfo = Jotable;
+		};
+		E9566EB11ECA859A00308561 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9566E7E1ECA859900308561 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9566E851ECA859900308561;
+			remoteInfo = Jotable;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		E9EE28761EEF65A900D50873 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		15ABFE5F0F284BD0D6CB8AB6 /* Pods-AethyrUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AethyrUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AethyrUITests/Pods-AethyrUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		1C5B33524D93C2A32F9198A9 /* Pods-Aethyr.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aethyr.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Aethyr/Pods-Aethyr.debug.xcconfig"; sourceTree = "<group>"; };
+		2A5CC6928123D8C7AE500CD9 /* Pods-AethyrUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AethyrUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AethyrUITests/Pods-AethyrUITests.release.xcconfig"; sourceTree = "<group>"; };
+		55C4563350BD45512755A3DB /* libPods-Aethyr.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Aethyr.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69A3F68477E3B6DAD2A2032C /* libPods-AethyrUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AethyrUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B890E72A766082E574BB5A3D /* Pods-Aethyr.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Aethyr.release.xcconfig"; path = "Pods/Target Support Files/Pods-Aethyr/Pods-Aethyr.release.xcconfig"; sourceTree = "<group>"; };
+		BD156F3E902534732FD374C2 /* libPods-AethyrTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AethyrTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD52105F490901DB4FD93799 /* Pods-AethyrTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AethyrTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AethyrTests/Pods-AethyrTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BE0A38278F2472B711FBB302 /* Pods-AethyrTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AethyrTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AethyrTests/Pods-AethyrTests.release.xcconfig"; sourceTree = "<group>"; };
+		E9187FCA1F00702900FFF9CE /* README.rtf */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; path = README.rtf; sourceTree = "<group>"; };
+		E9187FCC1F0074BD00FFF9CE /* MessageSettingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageSettingsController.h; sourceTree = "<group>"; };
+		E9187FCD1F0074BD00FFF9CE /* MessageSettingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageSettingsController.m; sourceTree = "<group>"; };
+		E9187FD01F00792100FFF9CE /* GMYConfettiView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GMYConfettiView.h; sourceTree = "<group>"; };
+		E9187FD11F00792100FFF9CE /* GMYConfettiView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GMYConfettiView.m; sourceTree = "<group>"; };
+		E9187FD21F00792100FFF9CE /* Resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resources.bundle; sourceTree = "<group>"; };
+		E93044FA1F09FD41001A1729 /* RMPhotoDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMPhotoDrawer.h; path = RMPhotoDrawer/RMPhotoDrawer.h; sourceTree = "<group>"; };
+		E93044FB1F09FD41001A1729 /* RMPhotoDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMPhotoDrawer.m; path = RMPhotoDrawer/RMPhotoDrawer.m; sourceTree = "<group>"; };
+		E93044FD1F09FF90001A1729 /* RMPhotoDrawerCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMPhotoDrawerCell.h; path = RMPhotoDrawer/RMPhotoDrawerCell.h; sourceTree = "<group>"; };
+		E93044FE1F09FF90001A1729 /* RMPhotoDrawerCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMPhotoDrawerCell.m; path = RMPhotoDrawer/RMPhotoDrawerCell.m; sourceTree = "<group>"; };
+		E93FD7981ECBD5530031F277 /* MKRingProgressView.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MKRingProgressView.framework; path = Carthage/Build/iOS/MKRingProgressView.framework; sourceTree = "<group>"; };
+		E9566E861ECA859900308561 /* Aethyr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aethyr.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9566EA51ECA859A00308561 /* AethyrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AethyrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9566EA91ECA859A00308561 /* JotableTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JotableTests.m; sourceTree = "<group>"; };
+		E9566EAB1ECA859A00308561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9566EB01ECA859A00308561 /* AethyrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AethyrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9566EB41ECA859A00308561 /* JotableUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JotableUITests.m; sourceTree = "<group>"; };
+		E9566EB61ECA859A00308561 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E959457B1EEDFCDE0006D809 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E959457C1EEDFCDE0006D809 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E959457D1EEDFCDE0006D809 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E959457F1EEDFCDE0006D809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E95945811EEDFCDE0006D809 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E95945961EEDFCDE0006D809 /* RMErrorPresentationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMErrorPresentationController.h; sourceTree = "<group>"; };
+		E95945971EEDFCDE0006D809 /* RMErrorPresentationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMErrorPresentationController.m; sourceTree = "<group>"; };
+		E95945981EEDFCDE0006D809 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E959459A1EEDFCDE0006D809 /* MessageDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailController.h; sourceTree = "<group>"; };
+		E959459B1EEDFCDE0006D809 /* MessageDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailController.m; sourceTree = "<group>"; };
+		E959459C1EEDFCDE0006D809 /* MessagesTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesTableController.h; sourceTree = "<group>"; };
+		E959459D1EEDFCDE0006D809 /* MessagesTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesTableController.m; sourceTree = "<group>"; };
+		E959459E1EEDFCDE0006D809 /* MessageTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableCell.h; sourceTree = "<group>"; };
+		E959459F1EEDFCDE0006D809 /* MessageTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableCell.m; sourceTree = "<group>"; };
+		E95945A21EEDFCDE0006D809 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E95945C21EEDFD070006D809 /* JotableModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = JotableModel.xcdatamodel; sourceTree = "<group>"; };
+		E98026C11ECA898700897243 /* MagicalRecord.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MagicalRecord.framework; path = Carthage/Build/iOS/MagicalRecord.framework; sourceTree = "<group>"; };
+		E991EFC51F086BB200B1ED4E /* RMAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMAlert.h; sourceTree = "<group>"; };
+		E991EFC61F086BB200B1ED4E /* RMAlert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMAlert.m; sourceTree = "<group>"; };
+		E991EFC91F0877BD00B1ED4E /* RMKeyboardManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMKeyboardManager.h; sourceTree = "<group>"; };
+		E991EFCA1F0877BD00B1ED4E /* RMKeyboardManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMKeyboardManager.m; sourceTree = "<group>"; };
+		E991EFCD1F087AFC00B1ED4E /* RMNotificationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMNotificationManager.h; sourceTree = "<group>"; };
+		E991EFCE1F087AFC00B1ED4E /* RMNotificationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMNotificationManager.m; sourceTree = "<group>"; };
+		E991EFD01F08819B00B1ED4E /* vineshroom.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = vineshroom.caf; sourceTree = "<group>"; };
+		E99E0A921F01ED97009EBFC1 /* MessageNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageNavigationController.h; sourceTree = "<group>"; };
+		E99E0A931F01ED97009EBFC1 /* MessageNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageNavigationController.m; sourceTree = "<group>"; };
+		E99E0A961F01F1B5009EBFC1 /* RMColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMColor.h; sourceTree = "<group>"; };
+		E99E0A971F01F1B5009EBFC1 /* RMColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMColor.m; sourceTree = "<group>"; };
+		E99E0AC21F032FA9009EBFC1 /* MessageNotificationsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageNotificationsController.h; sourceTree = "<group>"; };
+		E99E0AC31F032FA9009EBFC1 /* MessageNotificationsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageNotificationsController.m; sourceTree = "<group>"; };
+		E99E0AC51F033364009EBFC1 /* MessageNotificationCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageNotificationCell.h; sourceTree = "<group>"; };
+		E99E0AC61F033364009EBFC1 /* MessageNotificationCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageNotificationCell.m; sourceTree = "<group>"; };
+		E9AAE48D1ECD497500BDEBA5 /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		E9AAE48E1ECD497500BDEBA5 /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		E9AAE4961ECE509A00BDEBA5 /* pop.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = pop.framework; path = Carthage/Build/iOS/pop.framework; sourceTree = "<group>"; };
+		E9AAE49A1ECE528900BDEBA5 /* Chameleon.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Chameleon.framework; path = Carthage/Build/iOS/Chameleon.framework; sourceTree = "<group>"; };
+		E9AAE49E1ECE5DF600BDEBA5 /* Messages.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Messages.framework; path = System/Library/Frameworks/Messages.framework; sourceTree = SDKROOT; };
+		E9AAE49F1ECE5DF600BDEBA5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		E9AAE4A61ECF437800BDEBA5 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		E9E805B91F0C2C51006BE6AF /* MessageDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageDetailCell.h; sourceTree = "<group>"; };
+		E9E805BA1F0C2C51006BE6AF /* MessageDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageDetailCell.m; sourceTree = "<group>"; };
+		E9E805BD1F0C2D74006BE6AF /* RMMessageComposer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RMMessageComposer.h; path = RMMessageComposer/RMMessageComposer.h; sourceTree = "<group>"; };
+		E9E805BE1F0C2D74006BE6AF /* RMMessageComposer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RMMessageComposer.m; path = RMMessageComposer/RMMessageComposer.m; sourceTree = "<group>"; };
+		E9EE28501EEF653C00D50873 /* Aethyr.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aethyr.entitlements; sourceTree = "<group>"; };
+		E9EE28601EEF65A900D50873 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		E9EE28771EEF684900D50873 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		E9EE28781EEF684900D50873 /* UserNotificationsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotificationsUI.framework; path = System/Library/Frameworks/UserNotificationsUI.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9566E831ECA859900308561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9AAE48F1ECD497500BDEBA5 /* Contacts.framework in Frameworks */,
+				E9AAE4901ECD497500BDEBA5 /* ContactsUI.framework in Frameworks */,
+				E9AAE4A01ECE5DF600BDEBA5 /* Messages.framework in Frameworks */,
+				E9AAE4A11ECE5DF600BDEBA5 /* MessageUI.framework in Frameworks */,
+				E9AAE4A71ECF437800BDEBA5 /* QuartzCore.framework in Frameworks */,
+				E9EE28791EEF684900D50873 /* UserNotifications.framework in Frameworks */,
+				E9EE287A1EEF684900D50873 /* UserNotificationsUI.framework in Frameworks */,
+				FCF3B7560B8FB741E4B0DE55 /* libPods-Aethyr.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9566EA21ECA859A00308561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93220AA6257324E0F3351C3 /* libPods-AethyrTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9566EAD1ECA859A00308561 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E17C6317F13A197AC34DA855 /* libPods-AethyrUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B70DDC6307365D718DB75FF9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1C5B33524D93C2A32F9198A9 /* Pods-Aethyr.debug.xcconfig */,
+				B890E72A766082E574BB5A3D /* Pods-Aethyr.release.xcconfig */,
+				BD52105F490901DB4FD93799 /* Pods-AethyrTests.debug.xcconfig */,
+				BE0A38278F2472B711FBB302 /* Pods-AethyrTests.release.xcconfig */,
+				15ABFE5F0F284BD0D6CB8AB6 /* Pods-AethyrUITests.debug.xcconfig */,
+				2A5CC6928123D8C7AE500CD9 /* Pods-AethyrUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E9187FCB1F00749800FFF9CE /* Message Settings */ = {
+			isa = PBXGroup;
+			children = (
+				E9187FCC1F0074BD00FFF9CE /* MessageSettingsController.h */,
+				E9187FCD1F0074BD00FFF9CE /* MessageSettingsController.m */,
+			);
+			path = "Message Settings";
+			sourceTree = "<group>";
+		};
+		E9187FCF1F00792100FFF9CE /* GMYConfettiView */ = {
+			isa = PBXGroup;
+			children = (
+				E9187FD01F00792100FFF9CE /* GMYConfettiView.h */,
+				E9187FD11F00792100FFF9CE /* GMYConfettiView.m */,
+				E9187FD21F00792100FFF9CE /* Resources.bundle */,
+			);
+			path = GMYConfettiView;
+			sourceTree = "<group>";
+		};
+		E93044F21F09F776001A1729 /* RMPhotoDrawer */ = {
+			isa = PBXGroup;
+			children = (
+				E93044FA1F09FD41001A1729 /* RMPhotoDrawer.h */,
+				E93044FB1F09FD41001A1729 /* RMPhotoDrawer.m */,
+				E93044FD1F09FF90001A1729 /* RMPhotoDrawerCell.h */,
+				E93044FE1F09FF90001A1729 /* RMPhotoDrawerCell.m */,
+			);
+			name = RMPhotoDrawer;
+			path = ../Frameworks;
+			sourceTree = "<group>";
+		};
+		E9566E7D1ECA859900308561 = {
+			isa = PBXGroup;
+			children = (
+				E959457A1EEDFCDE0006D809 /* Aethyr */,
+				E9566EA81ECA859A00308561 /* AethyrTests */,
+				E9566EB31ECA859A00308561 /* AethyrUITests */,
+				E98026C01ECA898700897243 /* Frameworks */,
+				B70DDC6307365D718DB75FF9 /* Pods */,
+				E9566E871ECA859900308561 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9566E871ECA859900308561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9566E861ECA859900308561 /* Aethyr.app */,
+				E9566EA51ECA859A00308561 /* AethyrTests.xctest */,
+				E9566EB01ECA859A00308561 /* AethyrUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9566EA81ECA859A00308561 /* AethyrTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9566EAB1ECA859A00308561 /* Info.plist */,
+				E9566EA91ECA859A00308561 /* JotableTests.m */,
+			);
+			path = AethyrTests;
+			sourceTree = "<group>";
+		};
+		E9566EB31ECA859A00308561 /* AethyrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9566EB61ECA859A00308561 /* Info.plist */,
+				E9566EB41ECA859A00308561 /* JotableUITests.m */,
+			);
+			path = AethyrUITests;
+			sourceTree = "<group>";
+		};
+		E959457A1EEDFCDE0006D809 /* Aethyr */ = {
+			isa = PBXGroup;
+			children = (
+				E9187FCA1F00702900FFF9CE /* README.rtf */,
+				E9EE28501EEF653C00D50873 /* Aethyr.entitlements */,
+				E959457D1EEDFCDE0006D809 /* Assets.xcassets */,
+				E959457E1EEDFCDE0006D809 /* LaunchScreen.storyboard */,
+				E95945801EEDFCDE0006D809 /* Main.storyboard */,
+				E959457B1EEDFCDE0006D809 /* AppDelegate.h */,
+				E959457C1EEDFCDE0006D809 /* AppDelegate.m */,
+				E95945C01EEDFD070006D809 /* CoreData */,
+				E95945911EEDFCDE0006D809 /* Frameworks */,
+				E95945991EEDFCDE0006D809 /* Interface Controllers */,
+				E95945C51EEDFDC90006D809 /* Supporting Files */,
+			);
+			path = Aethyr;
+			sourceTree = "<group>";
+		};
+		E95945911EEDFCDE0006D809 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9E805BC1F0C2D53006BE6AF /* RMMessageComposer */,
+				E9187FCF1F00792100FFF9CE /* GMYConfettiView */,
+				E991EFC31F086B7A00B1ED4E /* RMAlert */,
+				E99E0A951F01F19C009EBFC1 /* RMColor */,
+				E95945951EEDFCDE0006D809 /* RMErrorPresentationController */,
+				E991EFC81F08779000B1ED4E /* RMKeyboardManager */,
+				E991EFCC1F087ADA00B1ED4E /* RMNotificationManager */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		E95945951EEDFCDE0006D809 /* RMErrorPresentationController */ = {
+			isa = PBXGroup;
+			children = (
+				E95945961EEDFCDE0006D809 /* RMErrorPresentationController.h */,
+				E95945971EEDFCDE0006D809 /* RMErrorPresentationController.m */,
+			);
+			path = RMErrorPresentationController;
+			sourceTree = "<group>";
+		};
+		E95945991EEDFCDE0006D809 /* Interface Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E95945C71EEE013F0006D809 /* Message Detail */,
+				E99E0A911F01ED77009EBFC1 /* Message Navigation */,
+				E99E0AC11F032F84009EBFC1 /* Message Notifications */,
+				E9187FCB1F00749800FFF9CE /* Message Settings */,
+				E95945C61EEE01360006D809 /* Message Table */,
+				E93044F21F09F776001A1729 /* RMPhotoDrawer */,
+			);
+			path = "Interface Controllers";
+			sourceTree = "<group>";
+		};
+		E95945C01EEDFD070006D809 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				E95945C11EEDFD070006D809 /* JotableModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+		E95945C51EEDFDC90006D809 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E95945981EEDFCDE0006D809 /* Info.plist */,
+				E95945A21EEDFCDE0006D809 /* main.m */,
+				E991EFD01F08819B00B1ED4E /* vineshroom.caf */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E95945C61EEE01360006D809 /* Message Table */ = {
+			isa = PBXGroup;
+			children = (
+				E959459E1EEDFCDE0006D809 /* MessageTableCell.h */,
+				E959459F1EEDFCDE0006D809 /* MessageTableCell.m */,
+				E959459C1EEDFCDE0006D809 /* MessagesTableController.h */,
+				E959459D1EEDFCDE0006D809 /* MessagesTableController.m */,
+			);
+			path = "Message Table";
+			sourceTree = "<group>";
+		};
+		E95945C71EEE013F0006D809 /* Message Detail */ = {
+			isa = PBXGroup;
+			children = (
+				E959459A1EEDFCDE0006D809 /* MessageDetailController.h */,
+				E959459B1EEDFCDE0006D809 /* MessageDetailController.m */,
+				E9E805B91F0C2C51006BE6AF /* MessageDetailCell.h */,
+				E9E805BA1F0C2C51006BE6AF /* MessageDetailCell.m */,
+			);
+			path = "Message Detail";
+			sourceTree = "<group>";
+		};
+		E98026C01ECA898700897243 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9EE28771EEF684900D50873 /* UserNotifications.framework */,
+				E9EE28781EEF684900D50873 /* UserNotificationsUI.framework */,
+				E9AAE4A61ECF437800BDEBA5 /* QuartzCore.framework */,
+				E9AAE49E1ECE5DF600BDEBA5 /* Messages.framework */,
+				E9AAE49F1ECE5DF600BDEBA5 /* MessageUI.framework */,
+				E9AAE49A1ECE528900BDEBA5 /* Chameleon.framework */,
+				E9AAE4961ECE509A00BDEBA5 /* pop.framework */,
+				E9AAE48D1ECD497500BDEBA5 /* Contacts.framework */,
+				E9AAE48E1ECD497500BDEBA5 /* ContactsUI.framework */,
+				E93FD7981ECBD5530031F277 /* MKRingProgressView.framework */,
+				E98026C11ECA898700897243 /* MagicalRecord.framework */,
+				E9EE28601EEF65A900D50873 /* IntentsUI.framework */,
+				55C4563350BD45512755A3DB /* libPods-Aethyr.a */,
+				BD156F3E902534732FD374C2 /* libPods-AethyrTests.a */,
+				69A3F68477E3B6DAD2A2032C /* libPods-AethyrUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E991EFC31F086B7A00B1ED4E /* RMAlert */ = {
+			isa = PBXGroup;
+			children = (
+				E991EFC51F086BB200B1ED4E /* RMAlert.h */,
+				E991EFC61F086BB200B1ED4E /* RMAlert.m */,
+			);
+			path = RMAlert;
+			sourceTree = "<group>";
+		};
+		E991EFC81F08779000B1ED4E /* RMKeyboardManager */ = {
+			isa = PBXGroup;
+			children = (
+				E991EFC91F0877BD00B1ED4E /* RMKeyboardManager.h */,
+				E991EFCA1F0877BD00B1ED4E /* RMKeyboardManager.m */,
+			);
+			path = RMKeyboardManager;
+			sourceTree = "<group>";
+		};
+		E991EFCC1F087ADA00B1ED4E /* RMNotificationManager */ = {
+			isa = PBXGroup;
+			children = (
+				E991EFCD1F087AFC00B1ED4E /* RMNotificationManager.h */,
+				E991EFCE1F087AFC00B1ED4E /* RMNotificationManager.m */,
+			);
+			path = RMNotificationManager;
+			sourceTree = "<group>";
+		};
+		E99E0A911F01ED77009EBFC1 /* Message Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				E99E0A921F01ED97009EBFC1 /* MessageNavigationController.h */,
+				E99E0A931F01ED97009EBFC1 /* MessageNavigationController.m */,
+			);
+			path = "Message Navigation";
+			sourceTree = "<group>";
+		};
+		E99E0A951F01F19C009EBFC1 /* RMColor */ = {
+			isa = PBXGroup;
+			children = (
+				E99E0A961F01F1B5009EBFC1 /* RMColor.h */,
+				E99E0A971F01F1B5009EBFC1 /* RMColor.m */,
+			);
+			path = RMColor;
+			sourceTree = "<group>";
+		};
+		E99E0AC11F032F84009EBFC1 /* Message Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				E99E0AC51F033364009EBFC1 /* MessageNotificationCell.h */,
+				E99E0AC61F033364009EBFC1 /* MessageNotificationCell.m */,
+				E99E0AC21F032FA9009EBFC1 /* MessageNotificationsController.h */,
+				E99E0AC31F032FA9009EBFC1 /* MessageNotificationsController.m */,
+			);
+			path = "Message Notifications";
+			sourceTree = "<group>";
+		};
+		E9E805BC1F0C2D53006BE6AF /* RMMessageComposer */ = {
+			isa = PBXGroup;
+			children = (
+				E9E805BD1F0C2D74006BE6AF /* RMMessageComposer.h */,
+				E9E805BE1F0C2D74006BE6AF /* RMMessageComposer.m */,
+			);
+			name = RMMessageComposer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9566E851ECA859900308561 /* Aethyr */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9566EB91ECA859A00308561 /* Build configuration list for PBXNativeTarget "Aethyr" */;
+			buildPhases = (
+				16CC0649B7C4D3413EB6BB76 /* [CP] Check Pods Manifest.lock */,
+				E9566E821ECA859900308561 /* Sources */,
+				E9566E831ECA859900308561 /* Frameworks */,
+				E9566E841ECA859900308561 /* Resources */,
+				E98026C41ECA8F5200897243 /* Increment Build Number */,
+				E9EE28761EEF65A900D50873 /* Embed App Extensions */,
+				DFCBE767647A2551FEB53E1F /* [CP] Embed Pods Frameworks */,
+				42D3AD277755E59EE1B20A69 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aethyr;
+			productName = Jotable;
+			productReference = E9566E861ECA859900308561 /* Aethyr.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9566EA41ECA859A00308561 /* AethyrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9566EBC1ECA859A00308561 /* Build configuration list for PBXNativeTarget "AethyrTests" */;
+			buildPhases = (
+				DAE0F2009B8246307996C6A1 /* [CP] Check Pods Manifest.lock */,
+				E9566EA11ECA859A00308561 /* Sources */,
+				E9566EA21ECA859A00308561 /* Frameworks */,
+				E9566EA31ECA859A00308561 /* Resources */,
+				48FFDA59859F13D88B0A1935 /* [CP] Embed Pods Frameworks */,
+				ED67E94989243E77D33FD557 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9566EA71ECA859A00308561 /* PBXTargetDependency */,
+			);
+			name = AethyrTests;
+			productName = JotableTests;
+			productReference = E9566EA51ECA859A00308561 /* AethyrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9566EAF1ECA859A00308561 /* AethyrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9566EBF1ECA859A00308561 /* Build configuration list for PBXNativeTarget "AethyrUITests" */;
+			buildPhases = (
+				DF780E4C5CDB38808BBCA3B9 /* [CP] Check Pods Manifest.lock */,
+				E9566EAC1ECA859A00308561 /* Sources */,
+				E9566EAD1ECA859A00308561 /* Frameworks */,
+				E9566EAE1ECA859A00308561 /* Resources */,
+				8006282A0BACBD40967B911C /* [CP] Embed Pods Frameworks */,
+				2598FD2498A1235B1473168E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9566EB21ECA859A00308561 /* PBXTargetDependency */,
+			);
+			name = AethyrUITests;
+			productName = JotableUITests;
+			productReference = E9566EB01ECA859A00308561 /* AethyrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9566E7E1ECA859900308561 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = "";
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Keeton Feavel";
+				TargetAttributes = {
+					E9566E851ECA859900308561 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = X3R99W7RN3;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.DataProtection = {
+								enabled = 1;
+							};
+							com.apple.SafariKeychain = {
+								enabled = 0;
+							};
+							com.apple.Siri = {
+								enabled = 0;
+							};
+						};
+					};
+					E9566EA41ECA859A00308561 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = X3R99W7RN3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9566E851ECA859900308561;
+					};
+					E9566EAF1ECA859A00308561 = {
+						CreatedOnToolsVersion = 8.3.1;
+						DevelopmentTeam = X3R99W7RN3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E9566E851ECA859900308561;
+					};
+				};
+			};
+			buildConfigurationList = E9566E811ECA859900308561 /* Build configuration list for PBXProject "Aethyr" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9566E7D1ECA859900308561;
+			productRefGroup = E9566E871ECA859900308561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9566E851ECA859900308561 /* Aethyr */,
+				E9566EA41ECA859A00308561 /* AethyrTests */,
+				E9566EAF1ECA859A00308561 /* AethyrUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9566E841ECA859900308561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E95945AC1EEDFCDE0006D809 /* Main.storyboard in Resources */,
+				E95945AA1EEDFCDE0006D809 /* Assets.xcassets in Resources */,
+				E95945AB1EEDFCDE0006D809 /* LaunchScreen.storyboard in Resources */,
+				E9187FD41F00792100FFF9CE /* Resources.bundle in Resources */,
+				E991EFD11F08819B00B1ED4E /* vineshroom.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9566EA31ECA859A00308561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9566EAE1ECA859A00308561 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16CC0649B7C4D3413EB6BB76 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2598FD2498A1235B1473168E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AethyrUITests/Pods-AethyrUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42D3AD277755E59EE1B20A69 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aethyr/Pods-Aethyr-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		48FFDA59859F13D88B0A1935 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AethyrTests/Pods-AethyrTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8006282A0BACBD40967B911C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AethyrUITests/Pods-AethyrUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAE0F2009B8246307996C6A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DF780E4C5CDB38808BBCA3B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DFCBE767647A2551FEB53E1F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Aethyr/Pods-Aethyr-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E98026C41ECA8F5200897243 /* Increment Build Number */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Increment Build Number";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "buildNumber=$(/usr/libexec/PlistBuddy -c \"Print CFBundleVersion\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\")\nbuildNumber=$(($buildNumber + 1))\n/usr/libexec/PlistBuddy -c \"Set :CFBundleVersion $buildNumber\" \"${PROJECT_DIR}/${INFOPLIST_FILE}\"";
+		};
+		ED67E94989243E77D33FD557 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AethyrTests/Pods-AethyrTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9566E821ECA859900308561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E99E0AC71F033364009EBFC1 /* MessageNotificationCell.m in Sources */,
+				E9187FCE1F0074BD00FFF9CE /* MessageSettingsController.m in Sources */,
+				E93044FC1F09FD41001A1729 /* RMPhotoDrawer.m in Sources */,
+				E9E805BF1F0C2D74006BE6AF /* RMMessageComposer.m in Sources */,
+				E991EFC71F086BB200B1ED4E /* RMAlert.m in Sources */,
+				E991EFCF1F087AFC00B1ED4E /* RMNotificationManager.m in Sources */,
+				E95945C31EEDFD070006D809 /* JotableModel.xcdatamodeld in Sources */,
+				E9E805BB1F0C2C51006BE6AF /* MessageDetailCell.m in Sources */,
+				E99E0A981F01F1B5009EBFC1 /* RMColor.m in Sources */,
+				E95945BC1EEDFCDE0006D809 /* main.m in Sources */,
+				E991EFCB1F0877BD00B1ED4E /* RMKeyboardManager.m in Sources */,
+				E95945BA1EEDFCDE0006D809 /* MessagesTableController.m in Sources */,
+				E99E0AC41F032FA9009EBFC1 /* MessageNotificationsController.m in Sources */,
+				E9187FD31F00792100FFF9CE /* GMYConfettiView.m in Sources */,
+				E95945B71EEDFCDE0006D809 /* RMErrorPresentationController.m in Sources */,
+				E95945B91EEDFCDE0006D809 /* MessageDetailController.m in Sources */,
+				E93044FF1F09FF90001A1729 /* RMPhotoDrawerCell.m in Sources */,
+				E95945BB1EEDFCDE0006D809 /* MessageTableCell.m in Sources */,
+				E99E0A941F01ED97009EBFC1 /* MessageNavigationController.m in Sources */,
+				E95945A91EEDFCDE0006D809 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9566EA11ECA859A00308561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9566EAA1ECA859A00308561 /* JotableTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9566EAC1ECA859A00308561 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9566EB51ECA859A00308561 /* JotableUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9566EA71ECA859A00308561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9566E851ECA859900308561 /* Aethyr */;
+			targetProxy = E9566EA61ECA859A00308561 /* PBXContainerItemProxy */;
+		};
+		E9566EB21ECA859A00308561 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9566E851ECA859900308561 /* Aethyr */;
+			targetProxy = E9566EB11ECA859A00308561 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E959457E1EEDFCDE0006D809 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E959457F1EEDFCDE0006D809 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+		E95945801EEDFCDE0006D809 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E95945811EEDFCDE0006D809 /* Base */,
+			);
+			name = Main.storyboard;
+			path = .;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9566EB71ECA859A00308561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = X3R99W7RN3;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E9566EB81ECA859A00308561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = X3R99W7RN3;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9566EBA1ECA859A00308561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C5B33524D93C2A32F9198A9 /* Pods-Aethyr.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Aethyr-Light";
+				CODE_SIGN_ENTITLEMENTS = Aethyr/Aethyr.entitlements;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/Aethyr-Prefix.pch";
+				INFOPLIST_FILE = "Aethyr/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solarpepper.aethyr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = arm64;
+			};
+			name = Debug;
+		};
+		E9566EBB1ECA859A00308561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B890E72A766082E574BB5A3D /* Pods-Aethyr.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "Aethyr-Light";
+				CODE_SIGN_ENTITLEMENTS = Aethyr/Aethyr.entitlements;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(PROJECT_NAME)/Aethyr-Prefix.pch";
+				INFOPLIST_FILE = "Aethyr/Supporting Files/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solarpepper.aethyr;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALID_ARCHS = arm64;
+			};
+			name = Release;
+		};
+		E9566EBD1ECA859A00308561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BD52105F490901DB4FD93799 /* Pods-AethyrTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X3R99W7RN3;
+				INFOPLIST_FILE = JotableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solarpepper.JotableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aethyr.app/Aethyr";
+			};
+			name = Debug;
+		};
+		E9566EBE1ECA859A00308561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE0A38278F2472B711FBB302 /* Pods-AethyrTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = X3R99W7RN3;
+				INFOPLIST_FILE = JotableTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solarpepper.JotableTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aethyr.app/Aethyr";
+			};
+			name = Release;
+		};
+		E9566EC01ECA859A00308561 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15ABFE5F0F284BD0D6CB8AB6 /* Pods-AethyrUITests.debug.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X3R99W7RN3;
+				INFOPLIST_FILE = JotableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solarpepper.JotableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jotable;
+			};
+			name = Debug;
+		};
+		E9566EC11ECA859A00308561 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A5CC6928123D8C7AE500CD9 /* Pods-AethyrUITests.release.xcconfig */;
+			buildSettings = {
+				DEVELOPMENT_TEAM = X3R99W7RN3;
+				INFOPLIST_FILE = JotableUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.solarpepper.JotableUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Jotable;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9566E811ECA859900308561 /* Build configuration list for PBXProject "Aethyr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9566EB71ECA859A00308561 /* Debug */,
+				E9566EB81ECA859A00308561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9566EB91ECA859A00308561 /* Build configuration list for PBXNativeTarget "Aethyr" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9566EBA1ECA859A00308561 /* Debug */,
+				E9566EBB1ECA859A00308561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9566EBC1ECA859A00308561 /* Build configuration list for PBXNativeTarget "AethyrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9566EBD1ECA859A00308561 /* Debug */,
+				E9566EBE1ECA859A00308561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9566EBF1ECA859A00308561 /* Build configuration list for PBXNativeTarget "AethyrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9566EC01ECA859A00308561 /* Debug */,
+				E9566EC11ECA859A00308561 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E95945C11EEDFD070006D809 /* JotableModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E95945C21EEDFD070006D809 /* JotableModel.xcdatamodel */,
+			);
+			currentVersion = E95945C21EEDFD070006D809 /* JotableModel.xcdatamodel */;
+			path = JotableModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = E9566E7E1ECA859900308561 /* Project object */;
+}

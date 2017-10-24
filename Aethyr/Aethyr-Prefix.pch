@@ -1,0 +1,15 @@
+//
+//  Jotable-Prefix.pch
+//  Jotable
+//
+//  Created by Keeton Feavel on 5/16/17.
+//  Copyright © 2017 Keeton Feavel. All rights reserved.
+//
+
+#ifndef Jotable_Prefix_pch
+#define Jotable_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* Jotable_Prefix_pch */
